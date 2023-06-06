@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/TwiskPortfolio/precache-manifest.a31ae07f0242506ea158c24aa6e7539b.js"
+  "/BlessingsPortfolio/precache-manifest.8f8b7e26a28a7a75e7ee2aa608f2a759.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/TwiskPortfolio/index.html", {
+workbox.routing.registerNavigationRoute("/BlessingsPortfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
