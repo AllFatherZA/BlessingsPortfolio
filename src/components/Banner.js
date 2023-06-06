@@ -51,7 +51,7 @@ export const Banner=()=>{
      <Row className="align-items-center">
       <Col xs={12} md={6} xl={7}>
         <span className="tagline">Welcome to my portfolio</span>
-        <h1>{'Hi im Sibusiso,'}<span className="wrap">{text}</span></h1>
+        <h1>{'Hi im Sibusiso,'}<span className="wrap">Software Engineer</span></h1>
         <p>As an experienced software engineer, I understand the importance of writing clean, efficient, and maintainable code.I prioritize communication and collaboration with my team members. We work together to identify and resolve any issues that arise, and I make sure to keep everyone updated on my progress.
            Overall, my goal as a software engineer is to deliver high-quality software that meets the needs of the stakeholders, is maintainable and scalable, and is delivered on time and within budget.
         </p>
