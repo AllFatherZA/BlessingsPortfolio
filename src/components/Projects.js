@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, Row, Col, Tab, Nav, TabContainer } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/FourierA.JPG";

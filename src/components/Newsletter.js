@@ -1,4 +1,4 @@
-
+import React from "react";
 import {Alert, Placeholder} from "react-bootstrap"
 import {useState} from "react"
 export const Newsletter=({subscribe,status,message})=>{
