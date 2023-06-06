@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0b537cff1930247d0159",
+    "revision": "a6b4fd2d765064e0e47e",
     "url": "/BlessingsPortfolio/static/css/main.8e92a221.chunk.css"
   },
   {
-    "revision": "0b537cff1930247d0159",
-    "url": "/BlessingsPortfolio/static/js/main.0b537cff.chunk.js"
+    "revision": "a6b4fd2d765064e0e47e",
+    "url": "/BlessingsPortfolio/static/js/main.a6b4fd2d.chunk.js"
   },
   {
     "revision": "db864c970a14004e9703",
@@ -108,12 +108,12 @@ self.__precacheManifest = [
     "url": "/BlessingsPortfolio/static/media/revicons.04eb8fc5.woff"
   },
   {
-    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
-    "url": "/BlessingsPortfolio/static/media/revicons.2feb69cc.eot"
-  },
-  {
     "revision": "17629a5dfe0d3c3946cf401e1895f091",
     "url": "/BlessingsPortfolio/static/media/revicons.17629a5d.ttf"
+  },
+  {
+    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
+    "url": "/BlessingsPortfolio/static/media/revicons.2feb69cc.eot"
   },
   {
     "revision": "52196284de1fcb5b044f001a75482dba",
@@ -132,6 +132,10 @@ self.__precacheManifest = [
     "url": "/BlessingsPortfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/BlessingsPortfolio/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/BlessingsPortfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
@@ -140,11 +144,7 @@ self.__precacheManifest = [
     "url": "/BlessingsPortfolio/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/BlessingsPortfolio/static/media/fontawesome-webfont.912ec66d.svg"
-  },
-  {
-    "revision": "e997b60cc42abad64dcea7ca066e4919",
+    "revision": "a37e967655019400bc87f31b3d71af01",
     "url": "/BlessingsPortfolio/index.html"
   }
 ];

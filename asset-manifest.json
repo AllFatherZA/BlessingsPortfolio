@@ -1,7 +1,7 @@
 {
   "main.css": "/BlessingsPortfolio/static/css/main.8e92a221.chunk.css",
-  "main.js": "/BlessingsPortfolio/static/js/main.0b537cff.chunk.js",
-  "main.js.map": "/BlessingsPortfolio/static/js/main.0b537cff.chunk.js.map",
+  "main.js": "/BlessingsPortfolio/static/js/main.a6b4fd2d.chunk.js",
+  "main.js.map": "/BlessingsPortfolio/static/js/main.a6b4fd2d.chunk.js.map",
   "static/css/1.0c475397.chunk.css": "/BlessingsPortfolio/static/css/1.0c475397.chunk.css",
   "static/js/1.db864c97.chunk.js": "/BlessingsPortfolio/static/js/1.db864c97.chunk.js",
   "static/js/1.db864c97.chunk.js.map": "/BlessingsPortfolio/static/js/1.db864c97.chunk.js.map",
@@ -24,12 +24,12 @@
   "static/media/contact-img.svg": "/BlessingsPortfolio/static/media/contact-img.a8822e20.svg",
   "static/media/logo.svg": "/BlessingsPortfolio/static/media/logo.06e73328.svg",
   "static/media/App.css": "/BlessingsPortfolio/static/media/bg-image1.6a2a16c6.jpg",
-  "static/media/styles.css": "/BlessingsPortfolio/static/media/revicons.17629a5d.ttf",
+  "static/media/styles.css": "/BlessingsPortfolio/static/media/revicons.2feb69cc.eot",
   "static/media/bootstrap-icons.css": "/BlessingsPortfolio/static/media/bootstrap-icons.7f477633.woff2",
-  "static/media/font-awesome.min.css": "/BlessingsPortfolio/static/media/fontawesome-webfont.912ec66d.svg",
+  "static/media/font-awesome.min.css": "/BlessingsPortfolio/static/media/fontawesome-webfont.b06871f2.ttf",
   "static/css/main.8e92a221.chunk.css.map": "/BlessingsPortfolio/static/css/main.8e92a221.chunk.css.map",
   "static/css/1.0c475397.chunk.css.map": "/BlessingsPortfolio/static/css/1.0c475397.chunk.css.map",
   "index.html": "/BlessingsPortfolio/index.html",
-  "precache-manifest.8f8b7e26a28a7a75e7ee2aa608f2a759.js": "/BlessingsPortfolio/precache-manifest.8f8b7e26a28a7a75e7ee2aa608f2a759.js",
+  "precache-manifest.ff9ac66469233ac80dd0a73ab858b29d.js": "/BlessingsPortfolio/precache-manifest.ff9ac66469233ac80dd0a73ab858b29d.js",
   "service-worker.js": "/BlessingsPortfolio/service-worker.js"
 }
