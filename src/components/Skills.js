@@ -54,6 +54,18 @@ export const Skills =()=>{
                     <img src={meter3} alt="Image"/>
                     <h5>PineScript</h5>
                   </div>
+                  <div className="item">
+                  <img src={meter2} alt="Image"/>
+                  <h5>Javascript</h5>
+                  </div>
+                  <div className="item">
+                  <img src={meter3} alt="Image"/>
+                  <h5>Xamarin Forms</h5>
+                  </div>
+                  <div className="item">
+                  <img src={meter1} alt="Image"/>
+                  <h5>React.JS</h5>
+                  </div>
                 </Carousel>
                </div>
             </Col>

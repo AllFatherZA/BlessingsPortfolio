@@ -6,6 +6,9 @@ import projImg2 from "../assets/img/BuyLowSellHigh.JPG";
 import projImg3 from "../assets/img/VarModels.JPG";
 import projImg4 from "../assets/img/QuantTrading.JPG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import TelegramBot from "../assets/img/TelegramBot.png";
+import FinanceGym from "../assets/img/FinanceGym.png";
+import TwiskWebsite from "../assets/img/TwiskPortfolioImage.png";
 
 
 export const Projects=()=>{
@@ -14,24 +17,50 @@ export const Projects=()=>{
       title: "Fourier Analysis",
       description: "Data Science",
       imgUrl: projImg1,
+      link:"https://medium.com/@mnyandenilunga/fourier-analysis-for-forex-predictions-c2313adc6379",
     },
     {
       title: "Trading Strategies",
       description: "Data Science",
       imgUrl: projImg2,
+      link:"https://medium.com/@mnyandenilunga/buy-low-sell-high-lets-do-the-opposite-quantitave-trading-strategies-101-de4726ef60f",
     },
     {
       title: "Trading Strategies",
       description: "Data Science",
       imgUrl: projImg3,
+      link:"https://medium.com/@mnyandenilunga/value-at-risk-var-models-how-big-financial-institutions-manage-risk-4ba0c9dce4cd",
     },
     {
       title: "Trading Strategies",
       description: "Data Science",
       imgUrl: projImg4,
+      link:"https://medium.com/@mnyandenilunga/quantitative-trading-feature-engineering-with-python-39e069a7bd1b",
     },
     
   ];
+
+  const projects2=[
+    {
+      title: "Telegram Trading Chatbot",
+      description: "Python",
+      imgUrl: TelegramBot,
+      link:"https://github.com/AllFatherZA/TelegramBot"
+    },
+    {
+      title: "Twisk Business Website",
+      description: "Javascript,CSS,REACT",
+      imgUrl: TwiskWebsite,
+      link:"https://main.d3t2zt8f8gdhy2.amplifyapp.com/"
+    },
+    {
+      title: "Trading Gym Enviroment",
+      description: "Python",
+      imgUrl: FinanceGym,
+      link:"https://github.com/AllFatherZA/TradingEnviroment"
+    },
+
+  ]
   return(
     <section className="project" id="project">
       <Container>
@@ -67,7 +96,18 @@ export const Projects=()=>{
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Projects Coming Soon</p>
+                    <Row>
+                        {
+                          projects2.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Projects Coming Soon</p>

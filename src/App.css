@@ -624,3 +624,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+/************ Button Css ************/
+.pill-button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #000; /* Text color */
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #000; /* Border color */
+  border-radius: 25px; /* Pill shape */
+  background-color: transparent; /* See-through background */
+  transition: all 0.3s ease-out; /* Smooth transition for hover effect */
+}
+
+.pill-button:hover {
+  background-color: #000; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+}
