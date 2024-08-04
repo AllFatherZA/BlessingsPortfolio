@@ -9,6 +9,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import TelegramBot from "../assets/img/TelegramBot.png";
 import FinanceGym from "../assets/img/FinanceGym.png";
 import TwiskWebsite from "../assets/img/TwiskPortfolioImage.png";
+import ATS from "../assets/img/ATS.png";
 
 
 export const Projects=()=>{
@@ -60,6 +61,12 @@ export const Projects=()=>{
       link:"https://github.com/AllFatherZA/TradingEnviroment"
     },
 
+    {
+      title: "Application Tracking System",
+      description: "Article writing",
+      imgUrl: ATS,
+      link:"https://www.pitchlabs.org/library/technology/recrutiment/what-is-the-role-of-technology-in-recruitment"   
+    }
   ]
   return(
     <section className="project" id="project">
