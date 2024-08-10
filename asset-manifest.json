@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BlessingsPortfolio/static/css/main.1f3e6caa.css",
-    "main.js": "/BlessingsPortfolio/static/js/main.d937d060.js",
+    "main.js": "/BlessingsPortfolio/static/js/main.704462a2.js",
     "static/media/twisklogo.png": "/BlessingsPortfolio/static/media/twisklogo.d5b5261b292109ecdce7.png",
     "static/media/color-sharp.png": "/BlessingsPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/BlessingsPortfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -25,6 +25,7 @@
     "static/media/CentraNo2-Book.ttf": "/BlessingsPortfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/BlessingsPortfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/footer-bg.png": "/BlessingsPortfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/EconCycles.png": "/BlessingsPortfolio/static/media/EconCycles.173d167e39fe18451741.png",
     "static/media/ATS.png": "/BlessingsPortfolio/static/media/ATS.de6e6e0f32249e1bd6de.png",
     "static/media/contact-img.svg": "/BlessingsPortfolio/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
     "static/media/revicons.eot": "/BlessingsPortfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -38,10 +39,10 @@
     "static/media/nav-icon1.svg": "/BlessingsPortfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/nav-icon2.svg": "/BlessingsPortfolio/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
     "main.1f3e6caa.css.map": "/BlessingsPortfolio/static/css/main.1f3e6caa.css.map",
-    "main.d937d060.js.map": "/BlessingsPortfolio/static/js/main.d937d060.js.map"
+    "main.704462a2.js.map": "/BlessingsPortfolio/static/js/main.704462a2.js.map"
   },
   "entrypoints": [
     "static/css/main.1f3e6caa.css",
-    "static/js/main.d937d060.js"
+    "static/js/main.704462a2.js"
   ]
 }
