@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BlessingsPortfolio/static/css/main.1f3e6caa.css",
-    "main.js": "/BlessingsPortfolio/static/js/main.b1e1564c.js",
+    "main.css": "/BlessingsPortfolio/static/css/main.c3201865.css",
+    "main.js": "/BlessingsPortfolio/static/js/main.87efad6d.js",
     "static/media/twisklogo.png": "/BlessingsPortfolio/static/media/twisklogo.d5b5261b292109ecdce7.png",
     "static/media/color-sharp.png": "/BlessingsPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/BlessingsPortfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -40,11 +40,11 @@
     "static/media/nav-icon3.svg": "/BlessingsPortfolio/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
     "index.html": "/BlessingsPortfolio/index.html",
     "static/media/nav-icon1.svg": "/BlessingsPortfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
-    "main.1f3e6caa.css.map": "/BlessingsPortfolio/static/css/main.1f3e6caa.css.map",
-    "main.b1e1564c.js.map": "/BlessingsPortfolio/static/js/main.b1e1564c.js.map"
+    "main.c3201865.css.map": "/BlessingsPortfolio/static/css/main.c3201865.css.map",
+    "main.87efad6d.js.map": "/BlessingsPortfolio/static/js/main.87efad6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f3e6caa.css",
-    "static/js/main.b1e1564c.js"
+    "static/css/main.c3201865.css",
+    "static/js/main.87efad6d.js"
   ]
 }
