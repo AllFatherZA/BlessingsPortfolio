@@ -43,27 +43,27 @@ export const Skills =()=>{
                 <p>Programming languages and frameworks I have experience working in</p>
                 <Carousel responsive={responsive} infinite={true} className="skill-slider">
                   <div className="item">
-                    <img src={meter1} alt="Image"/>
+                    <img src={meter1} alt="Counter"/>
                     <h5>C#</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image"/>
+                    <img src={meter2} alt="Counter"/>
                     <h5>Python</h5>
                   </div>
                   <div className="item">
-                    <img src={meter3} alt="Image"/>
+                    <img src={meter3} alt="Counter"/>
                     <h5>PineScript</h5>
                   </div>
                   <div className="item">
-                  <img src={meter2} alt="Image"/>
+                  <img src={meter2} alt="Counter"/>
                   <h5>Javascript</h5>
                   </div>
                   <div className="item">
-                  <img src={meter3} alt="Image"/>
+                  <img src={meter3} alt="Counter"/>
                   <h5>Xamarin Forms</h5>
                   </div>
                   <div className="item">
-                  <img src={meter1} alt="Image"/>
+                  <img src={meter1} alt="Counter"/>
                   <h5>React.JS</h5>
                   </div>
                 </Carousel>
@@ -71,7 +71,7 @@ export const Skills =()=>{
             </Col>
         </Row>
     </Container>
-    <img className="background-image-left" src={colorSharp}/>
+    <img className="background-image-left" src={colorSharp} alt="background gradient"/>
    </section>
 
 

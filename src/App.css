@@ -54,8 +54,8 @@ a:hover {
 }
 
 img {
-  width: 100%;
-  height: fit-content;
+  max-width: 100%; /* Ensures the image doesn't overflow its parent container */
+  height: auto;    /* Maintains the image's aspect ratio */
 }
 
 button {
@@ -420,6 +420,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  max-width: 100%; /* Ensures the image doesn't overflow its parent container */
+  height: auto;    /* Maintains the image's aspect ratio */
+
 }
 .proj-imgbx::before {
   content: "";

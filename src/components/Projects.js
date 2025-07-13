@@ -1,42 +1,61 @@
 import React from 'react'
-import { Container, Row, Col, Tab, Nav, TabContainer } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav,} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/FourierA.JPG";
-import projImg2 from "../assets/img/BuyLowSellHigh.JPG";
-import projImg3 from "../assets/img/VarModels.JPG";
-import projImg4 from "../assets/img/QuantTrading.JPG";
+import InformationSecurity from "../assets/img/InformationSecurity.jpeg";
+import MachineLearning from "../assets/img/MachineLearning.jpeg";
+import DataScience from "../assets/img/DataScience.jpeg";
+import SystemsDesign from "../assets/img/SystemsDesign.jpeg";
+import MonteCarlo from "../assets/img/MonteCarlo.jpeg"
+import NormalDistribution from "../assets/img/NormalDistribution.jpeg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TelegramBot from "../assets/img/TelegramBot.png";
 import FinanceGym from "../assets/img/FinanceGym.png";
 import TwiskWebsite from "../assets/img/TwiskPortfolioImage.png";
 import ATS from "../assets/img/ATS.png";
+import AnonMessageBoard from "../assets/img/year.b949fba29b6c78d3daf1.png"
+import TwiskEx from "../assets/img/twiskex.898f868d770ee1930636.png"
+import HungryBlocks from "../assets/img/HungryBlocks.png"
 
 
 export const Projects=()=>{
   const projects = [
     {
-      title: "Fourier Analysis",
-      description: "Data Science",
-      imgUrl: projImg1,
-      link:"https://medium.com/@mnyandenilunga/fourier-analysis-for-forex-predictions-c2313adc6379",
+      title: "Stock Price Checker",
+      description: "Information Security",
+      imgUrl: InformationSecurity,
+      link:"https://medium.com/@mnyandenilunga/breaking-in-my-journey-through-freecodecamps-information-security-certification-1617b7627d3a",
     },
     {
-      title: "Trading Strategies",
-      description: "Data Science",
-      imgUrl: projImg2,
-      link:"https://medium.com/@mnyandenilunga/buy-low-sell-high-lets-do-the-opposite-quantitave-trading-strategies-101-de4726ef60f",
+      title: "Machine Learning",
+      description: "Algorithms and Data Structures",
+      imgUrl: MachineLearning,
+      link:"https://medium.com/@mnyandenilunga/lets-build-a-self-driving-car-ai-algorithms-in-python-43e682a09f96",
     },
     {
-      title: "Trading Strategies",
+      title: "Signal Processing",
       description: "Data Science",
-      imgUrl: projImg3,
-      link:"https://medium.com/@mnyandenilunga/value-at-risk-var-models-how-big-financial-institutions-manage-risk-4ba0c9dce4cd",
+      imgUrl: DataScience,
+      link:"https://medium.com/insiderfinance/why-data-scientists-treat-price-action-like-a-signal-financial-time-series-modelling-b198634802a8",
     },
     {
-      title: "Trading Strategies",
+      title: "Systems Design",
+      description: "Software Development",
+      imgUrl: SystemsDesign,
+      link:"https://medium.com/insiderfinance/systems-design-techniques-financial-process-modelling-1f6dd111ab90",
+    },
+
+    {
+      title: "Risk Modelling",
       description: "Data Science",
-      imgUrl: projImg4,
-      link:"https://medium.com/@mnyandenilunga/quantitative-trading-feature-engineering-with-python-39e069a7bd1b",
+      imgUrl: MonteCarlo,
+      link:"https://medium.com/insiderfinance/systems-design-techniques-financial-process-modelling-1f6dd111ab90",
+    },
+
+    {
+      title: "Normal Distribution",
+      description: "Data Science",
+      imgUrl: NormalDistribution,
+      link:"https://medium.com/insiderfinance/mastering-stock-market-trends-with-python-unveiling-the-power-of-normal-distribution-9230b09c607a",
     },
     
   ];
@@ -44,29 +63,54 @@ export const Projects=()=>{
   const projects2=[
     {
       title: "Telegram Trading Chatbot",
-      description: "Python",
+      description: "Python/Telegram/MetaTrader",
       imgUrl: TelegramBot,
       link:"https://github.com/AllFatherZA/TelegramBot"
     },
     {
       title: "Twisk Business Website",
-      description: "Javascript,CSS,REACT",
+      description: "Html,CSS,REACT",
       imgUrl: TwiskWebsite,
-      link:"https://main.d3t2zt8f8gdhy2.amplifyapp.com/"
+      link:"https://twiskwebsite-1.onrender.com/"
     },
     {
       title: "Trading Gym Enviroment",
-      description: "Python",
+      description: "Algorithms and Data Structures",
       imgUrl: FinanceGym,
       link:"https://github.com/AllFatherZA/TradingEnviroment"
     },
 
     {
       title: "Application Tracking System",
-      description: "Article writing",
+      description: "Article writing/SEO",
       imgUrl: ATS,
       link:"https://www.pitchlabs.org/library/technology/recrutiment/what-is-the-role-of-technology-in-recruitment"   
+    },
+
+    {
+      title: "Anonymous Message Board",
+      description: "Software Development",
+      imgUrl: AnonMessageBoard,
+      link:"https://freecodecamp-infosec-messageboard.onrender.com/b/Chemistry/"   
+    },
+
+    {
+      title: "Investment Platform",
+      description: "Software Development",
+      imgUrl: TwiskEx,
+      link:"https://twiskex.onrender.com/"   
     }
+  ]
+
+  const projects3=[
+    
+    {
+      title: "Hungry Blocks",
+      description: "Game Development",
+      imgUrl: HungryBlocks,
+      link:"https://freecodecamp-infosec-realtimegame.onrender.com/"   
+    }
+    
   ]
   return(
     <section className="project" id="project">
@@ -117,14 +161,26 @@ export const Projects=()=>{
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Projects Coming Soon</p>
+                                          <Row>
+                        {
+                          projects3.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                      
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt='person watching laptop'></img>
     </section>
   )
 
