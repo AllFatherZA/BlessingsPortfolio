@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/BlessingsPortfolio/static/css/main.23f22fed.css",
-    "main.js": "/BlessingsPortfolio/static/js/main.eb44e17d.js",
+    "main.css": "/BlessingsPortfolio/static/css/main.f5768e4e.css",
+    "main.js": "/BlessingsPortfolio/static/js/main.9555039f.js",
     "static/media/twisklogo.png": "/BlessingsPortfolio/static/media/twisklogo.d5b5261b292109ecdce7.png",
+    "static/media/HungryBlocks.png": "/BlessingsPortfolio/static/media/HungryBlocks.cb070a10df94580f3dbf.png",
     "static/media/color-sharp.png": "/BlessingsPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/BlessingsPortfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/FinanceGym.png": "/BlessingsPortfolio/static/media/FinanceGym.e4b695f5563bb04582b9.png",
@@ -10,16 +11,16 @@
     "static/media/bg-image1.jpg": "/BlessingsPortfolio/static/media/bg-image1.9973a387cf7535786512.jpg",
     "static/media/TwiskPortfolioImage.png": "/BlessingsPortfolio/static/media/TwiskPortfolioImage.1c2e4999556a0ee21399.png",
     "static/media/InformationSecurity.jpeg": "/BlessingsPortfolio/static/media/InformationSecurity.1e229500fe2723a694c2.jpeg",
-    "static/media/TimeSeriesOHLC.jpeg": "/BlessingsPortfolio/static/media/TimeSeriesOHLC.27b646d5b4a62d5a899b.jpeg",
+    "static/media/DataScience.jpeg": "/BlessingsPortfolio/static/media/DataScience.27b646d5b4a62d5a899b.jpeg",
     "static/media/fontawesome-webfont.eot": "/BlessingsPortfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/BlessingsPortfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/bootstrap-icons.woff?": "/BlessingsPortfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/SystemsDesign.jpeg": "/BlessingsPortfolio/static/media/SystemsDesign.34c13081aa37aaf45837.jpeg",
-    "static/media/MLAlgorithms.jpeg": "/BlessingsPortfolio/static/media/MLAlgorithms.10511a8f5847dd210ecc.jpeg",
+    "static/media/MachineLearning.jpeg": "/BlessingsPortfolio/static/media/MachineLearning.10511a8f5847dd210ecc.jpeg",
     "static/media/NormalDistribution.jpeg": "/BlessingsPortfolio/static/media/NormalDistribution.d5755feabc504afb5211.jpeg",
-    "static/media/MonteCarloVar.jpeg": "/BlessingsPortfolio/static/media/MonteCarloVar.3b8635d088f230873f41.jpeg",
+    "static/media/MonteCarlo.jpeg": "/BlessingsPortfolio/static/media/MonteCarlo.3b8635d088f230873f41.jpeg",
     "static/media/header-img.svg": "/BlessingsPortfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/year.png": "/BlessingsPortfolio/static/media/year.b949fba29b6c78d3daf1.png",
+    "static/media/year.png": "/BlessingsPortfolio/static/media/year.b949fba29b6c78d3daf1.b949fba29b6c78d3daf1.png",
     "static/media/TelegramBot.png": "/BlessingsPortfolio/static/media/TelegramBot.0a12dd1d49b9d9e0ef31.png",
     "static/media/bootstrap-icons.woff2?": "/BlessingsPortfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/BlessingsPortfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
@@ -30,7 +31,7 @@
     "static/media/footer-bg.png": "/BlessingsPortfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/ATS.png": "/BlessingsPortfolio/static/media/ATS.de6e6e0f32249e1bd6de.png",
     "static/media/contact-img.svg": "/BlessingsPortfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/twiskex.png": "/BlessingsPortfolio/static/media/twiskex.898f868d770ee1930636.png",
+    "static/media/twiskex.png": "/BlessingsPortfolio/static/media/twiskex.898f868d770ee1930636.898f868d770ee1930636.png",
     "static/media/revicons.eot": "/BlessingsPortfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/BlessingsPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/BlessingsPortfolio/static/media/revicons.e8746a624ed098489406.woff",
@@ -39,11 +40,11 @@
     "static/media/meter3.svg": "/BlessingsPortfolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/BlessingsPortfolio/index.html",
     "static/media/nav-icon1.svg": "/BlessingsPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.23f22fed.css.map": "/BlessingsPortfolio/static/css/main.23f22fed.css.map",
-    "main.eb44e17d.js.map": "/BlessingsPortfolio/static/js/main.eb44e17d.js.map"
+    "main.f5768e4e.css.map": "/BlessingsPortfolio/static/css/main.f5768e4e.css.map",
+    "main.9555039f.js.map": "/BlessingsPortfolio/static/js/main.9555039f.js.map"
   },
   "entrypoints": [
-    "static/css/main.23f22fed.css",
-    "static/js/main.eb44e17d.js"
+    "static/css/main.f5768e4e.css",
+    "static/js/main.9555039f.js"
   ]
 }
