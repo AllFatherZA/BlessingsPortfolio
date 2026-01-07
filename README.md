@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# BlessingsPortfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio website built with React (Create React App). This repository contains the front-end sources (`src/` and `public/`) and is configured for deployment to GitHub Pages.
 
-## Available Scripts
+Live demo
+- https://allfatherza.github.io/BlessingsPortfolio
 
-In the project directory, you can run:
+Quick summary
+- Framework: React (Create React App)
+- Deployment: GitHub Pages via the `gh-pages` package (configured in package.json)
+- Language: JavaScript (ESNext)
 
-### `npm start`
+Table of contents
+- About
+- Tech stack
+- Prerequisites
+- Local development
+- Build & Deploy
+- Contact / Email form
+- Contributing
+- License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+About
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is a personal portfolio site that showcases projects and contact information. The project was bootstrapped with Create React App and includes UI libraries (Bootstrap) and utilities for handling contact forms and mail (EmailJS, nodemailer).
 
-### `npm test`
+Tech stack
+- React 18 (Create React App)
+- Bootstrap 5, Bootstrap Icons
+- React Router for navigation
+- gh-pages for GitHub Pages deployment
+- (Optional) nodemailer / express if you add a backend for sending mails
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Prerequisites
+- Node.js (recommend LTS, e.g. 18+) and npm installed\- Git (for cloning)
 
-### `npm run build`
+Local development
+1. Clone the repo```bash
+git clone https://github.com/AllFatherZA/BlessingsPortfolio.git
+cd BlessingsPortfolio
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the development server```bash
+npm start
+```
+Open http://localhost:3000 in your browser. The app will hot-reload on changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build & Deploy
 
-### `npm run eject`
+Build for production:
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Deploy to GitHub Pages (package.json already configured with a `predeploy` and `deploy` script):
+```bash
+npm run deploy
+```
+This will publish the contents of `build/` to the `gh-pages` branch and serve it from the GitHub Pages site configured at the `homepage` field in package.json. If you need to change the homepage, update `package.json > homepage` to your desired URL.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contact / Email form
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project includes front-end code that may integrate with EmailJS or a backend. There is no dedicated backend folder in this repository. If you plan to handle emails server-side, add a `server/` (or similar) directory with an Express app using `nodemailer` and protect credentials using environment variables.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Example environment variables for a backend server (do NOT store these in source control):
+```bash
+SMTP_HOST=smtp.example.com
+SMTP_PORT=587
+SMTP_USER=your-user
+SMTP_PASS=your-pass
+```
+For EmailJS (client-side), keep your public keys in a secure place (do not commit secret keys).
 
-## Learn More
+Testing
+- Run tests (if any):
+```bash
+npm test
+```
+Create React App has a built-in test runner; add unit tests under `src/__tests__` or alongside components.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributing
+- Fork the repository\- Create a branch: `git checkout -b feature/my-change`
+- Make changes and commit: `git commit -m "Add new feature"`
+- Push and open a Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+License
+Add your license here (e.g., MIT). If you want me to add a LICENSE file I can create one for you.
 
-### Code Splitting
+Maintenance notes
+- The package.json includes dependencies such as `express` and `nodemailer` but there is no backend folder in this repository. If you add a backend, keep it in a separate directory (`server/`) and include instructions here for running it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+Maintainer: https://github.com/AllFatherZA
